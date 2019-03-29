@@ -1,0 +1,55 @@
+.img{
+	width: 600px;
+	height: 300px;
+}
+
+.all{
+	width: 600px;
+	height: 300px;
+	margin: 100px auto;
+	position: relative;
+	overflow: hidden;
+}
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.all ul{
+	position: relative;
+	z-index: 1;
+}
+.all ul li{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.all ol{
+	position:absolute;
+	z-index: 2;
+	right: 10px;
+	bottom: 10px;
+}
+.all ol li{
+	width: 10px;
+	height: 10px;
+	background: #c9c9c9;
+	border:1px solid #ccc;
+	font-weight: bold;
+	text-align: center;
+	float: left;
+	list-style: none;
+	margin-left: 10px;
+	color: #ccc;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.all ol .current{
+	width: 11px;
+	height: 11px;
+	background: darkgreen;
+	border:1px solid gold;
+	color:#f60;
+	margin-top: 9px;
+	cursor: pointer;
+}
