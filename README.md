@@ -1,0 +1,2 @@
+# switchImage
+test SwitchImage
